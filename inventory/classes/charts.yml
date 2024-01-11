@@ -1,0 +1,14 @@
+parameters:
+  namespace: ${target}
+  kapitan:
+    vars:
+      target: ${target}
+    compile:
+      - output_path: nginx-chart
+        input_type: copy
+        input_paths: 
+          - components/charts/nginx
+      - output_path: nginx-chart
+        input_type: jinja2
+        input_paths: 
+          - components/charts/nginx/customValues.yaml

@@ -1,0 +1,2 @@
+imagePullPolicy: {{ inventory.parameters.nginx.imagePullPolicy }}
+replicaCount: {{ inventory.parameters.nginx.replicaCount }}

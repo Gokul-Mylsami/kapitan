@@ -1,0 +1,4 @@
+parameters:
+  nginx:
+    imagePullPolicy: IfNotPresent
+    replicaCount: 1

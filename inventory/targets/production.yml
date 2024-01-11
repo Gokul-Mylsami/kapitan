@@ -1,0 +1,8 @@
+classes:
+  - charts
+  - components.nginx
+
+parameters:
+  target: production
+  nginx:
+    replicaCount: 6
